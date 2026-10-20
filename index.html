@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Garage pas propre : maquette étudiante sur le numérique responsable.">
+  <title>Garage pas propre</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="header">
+    <a class="brand" href="#accueil"><img src="assets/logo.png" alt="" width="72" height="72"><span>GARAGE<br>PAS PROPRE !</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden>Menu</button>
+    <nav id="navigation" aria-label="Navigation principale">
+      <a href="#garage">Notre garage</a><a href="#recherche">Recherche</a><a href="#missions">Missions</a><a href="#offres">Offres</a><a href="#communaute">Communauté</a><a href="#contact">SAV</a><a href="#offres">Tarifs</a>
+    </nav>
+  </header>
+  <main id="contenu">
+    <!-- 1. Présentation sur le fond fourni dans le ZIP -->
+    <section class="hero" id="accueil">
+      <div class="hero-copy"><h1>Alors comme ça,<br>le pétrole c’est pas propre ?</h1><p>Bienvenue au Garage pas propre ! Une maquette volontairement décalée autour de la voiture et de nos habitudes de consommation.</p><p>Ce texte est un contenu de démonstration. Remplace-le par ton introduction, tes arguments et la présentation de ton projet.</p></div>
+      <div class="hero-visual"><img src="assets/jeep.webp" alt="Visuel publicitaire d’un tout-terrain" width="385" height="385"><a class="button light" href="#garage">En savoir plus</a><p>Envie de polluer au calme ?</p></div>
+    </section>
+    <div class="ticker" aria-label="Messages humoristiques"><span>‹ ‹ ‹ LA TERRE EST PAS PLATE !!　‹ ‹ ‹　PEUT-ÊTRE QUE SI　‹ ‹ ‹　EN FAIT NAN　‹ ‹ ‹　AH BON ?　‹ ‹ ‹　ELLE EST PAS CREUSE NON PLUS WESH !!!</span></div>
+    <!-- 2. Présentation et galerie -->
+    <section class="garage section" id="garage">
+      <div><h2>Titre de section que j’ai la flemme de créer</h2><p>Présente ici ton garage, son histoire et ses missions. Ce bloc est prévu pour un texte court.</p><a class="button" href="#missions">En savoir plus</a>
+        <div class="carousel" id="recherche" role="region" aria-label="Galerie de voitures"><button id="previous" aria-label="Image précédente" hidden>‹</button><figure><img id="carousel-image" src="assets/voiture-volante.webp" alt="Voiture dans les airs" width="200" height="200"><figcaption id="carousel-caption" aria-live="polite">Voiture dans les airs — 1 / 3</figcaption></figure><button id="next" aria-label="Image suivante" hidden>›</button></div>
+      </div>
+      <div class="car-gallery"><img src="assets/sport-bleue.webp" alt="Voiture sportive bleue aux portes ouvertes" loading="lazy"><img src="assets/sport-noire.webp" alt="Voiture sportive noire" loading="lazy"></div>
+    </section>
+    <!-- 3. Zone vidéo : ajouter une vraie source dans la balise video -->
+    <section class="feature section" id="missions"><h2>Grosse voiture !</h2><p>Les grosses voitures, c’est merveilleux.</p><video controls preload="none" poster="assets/video-route.webp" aria-label="Vidéo de présentation à ajouter"></video><p class="media-note">Emplacement vidéo : source à ajouter.</p><span class="feature-number" aria-hidden="true">01</span></section>
+    <div class="meme-strip" aria-hidden="true"><img src="assets/meme.webp" alt="" loading="lazy"><img src="assets/meme.webp" alt="" loading="lazy"><img src="assets/meme.webp" alt="" loading="lazy"><img src="assets/meme.webp" alt="" loading="lazy"><img src="assets/meme.webp" alt="" loading="lazy"></div>
+    <!-- 4. Deuxième présentation -->
+    <section class="offer section" id="offres"><img src="assets/neon.webp" alt="Voiture éclairée par des néons roses et bleus" loading="lazy"><div><h2>Un autre sous-titre qui n’a aucun sens :D</h2><p>Ajoute ici la description de ton offre ou de ton véhicule. Tu peux remplacer ce texte sans toucher à la mise en page.</p><a class="button" href="#contact">La grosse voiture !</a></div></section>
+    <!-- 5. Coordonnées : adresses fictives reprises de la maquette -->
+    <section class="contact" id="contact"><div class="addresses"><h2>Nos coordonnées :</h2><address><p>69 Virage à gauche<br>12345 VILLE RANDOM</p><p>12 Rond-point Zucman<br>12345 VILLE RANDOM</p><p>45 porte Spéculation Boursière<br>12345 VILLE RANDOM</p><p>125 Rue de l’économie Hétérodoxe<br>12345 VILLE RANDOM</p><p>28 boulevard de la mort<br>12345 VILLE RANDOM</p></address></div><img class="map" src="assets/carte.webp" alt="Aperçu de la carte de la maquette, sans correspondance avec les adresses fictives" loading="lazy"></section>
+    <!-- 6. Cartes d’information -->
+    <section class="information section" id="informations"><h2>Quelques informations<br>importantes quand même !</h2><p class="intro">Un espace pour les notions de numérique responsable vues en cours. Remplace ces textes par tes contenus et ajoute les sources de tes éventuels chiffres.</p><div class="cards">
+      <article><span aria-hidden="true">◉</span><h3>Un constat et ses enjeux</h3><p>Le numérique repose sur des équipements, des réseaux et des centres de données. Tous mobilisent des ressources.</p></article>
+      <article><span aria-hidden="true">◈</span><h3>Les ressources naturelles</h3><p>La fabrication des appareils nécessite des matières premières. Prolonger leur usage est un levier important.</p></article>
+      <article><span aria-hidden="true">▤</span><h3>Des données à gérer</h3><p>Définir les données utiles et leur durée de conservation permet d’éviter les accumulations inutiles.</p></article>
+      <article><span aria-hidden="true">△</span><h3>L’effet rebond</h3><p>Les gains d’efficacité peuvent être compensés par une augmentation des usages. Il faut regarder l’ensemble.</p></article>
+      <article><span aria-hidden="true">↻</span><h3>Réparer et réutiliser</h3><p>Entretenir les équipements et envisager leur réemploi avant de les remplacer.</p></article>
+      <article><span aria-hidden="true">◇</span><h3>Concevoir sobrement</h3><p>Questionner les fonctionnalités et ne charger que les ressources nécessaires au besoin.</p></article>
+      <article><span aria-hidden="true">⌨</span><h3>Penser à l’accessibilité</h3><p>Prévoir une navigation au clavier, des libellés explicites et des contrastes lisibles.</p></article>
+      <article><span aria-hidden="true">◎</span><h3>Mesurer et améliorer</h3><p>Observer le poids des pages, les requêtes et les ressources consommées pour orienter les améliorations.</p></article>
+    </div><a class="back-top" href="#accueil" aria-label="Retour en haut">↑</a></section>
+  </main>
+  <footer id="communaute"><p>Un projet étudiant<br>autour du numérique responsable.</p><img class="cat" src="assets/chat.webp" alt="Chat portant un petit bonnet" loading="lazy"><a href="#accueil" aria-label="Garage pas propre, accueil"><img class="footer-logo" src="assets/logo.png" alt="Garage pas propre" loading="lazy"></a><img class="cat" src="assets/chat.webp" alt="" loading="lazy"><p class="social-note">Tes liens de réseaux<br>sociaux ici</p></footer>
+</body>
+</html>
